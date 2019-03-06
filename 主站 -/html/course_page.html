@@ -1,0 +1,174 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>惠州市城市建设职业培训学校</title>
+<!--[if IE 6]>
+        <script src="js/iepng.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            EvPNG.fix('*');  //EvPNG.fix('包含透明PNG图片的标签'); 多个标签之间用英文逗号隔开。
+        </script>
+  <![endif]-->
+<link rel="stylesheet" type="text/css" href="../css/hz_school.css">
+<link rel="stylesheet" type="text/css" href="../iconfont/iconfont.css">
+<script type="text/javascript">
+//弹出隐藏层
+function ShowDiv(show_div,bg_div){
+document.getElementById(show_div).style.display='block';
+document.getElementById(bg_div).style.display='block' ;
+var bgdiv = document.getElementById(bg_div);
+bgdiv.style.width = document.body.scrollWidth;
+// bgdiv.style.height = $(document).height();
+$("#"+bg_div).height($(document).height());
+};
+//关闭弹出层
+function CloseDiv(show_div,bg_div)
+{
+document.getElementById(show_div).style.display='none';
+document.getElementById(bg_div).style.display='none';
+};
+</script>
+<script type="text/javascript" src="../js/jquery1.42.min.js"></script>
+	<script type="text/javascript" src="../js/jquery.SuperSlide.2.1.1.js"></script>
+</head>
+
+<body>
+<!--top!-->
+<div id="top" class="clear wrap">
+		<ul>
+			<li class="logo">惠州市城市建设职业培训学校</li>
+			<li><a href="#" class="login_btn3">注册</a></li>
+			<li><a href="#" class="login_btn1" onclick="ShowDiv('MyDiv','fade')">登录</a></li>
+		</ul>
+</div>
+<!-- 登录弹层 !-->
+<div id="fade" class="black_overlay">
+        </div>
+<div id="MyDiv" class="white_content radius5">
+	<div class="close"><a onclick="CloseDiv('MyDiv','fade')"><i class="iconfont">&#xe62b;</i></a></div>
+	<h3>惠州市城市建设职业培训学校会员登录入口</h3>
+	<ul>
+		<li><i class="iconfont">&#xe602;</i><input type="text" class="login_box1" placeholder="请输入会员登录帐号"></li>
+		<li><i class="iconfont">&#xe6c1;</i><input type="password" class="login_box1" placeholder="请输入会员登录密码"></li>
+		<li><i class="iconfont">&#xe60f;</i><input type="password" class="login_box2" placeholder="请输入右方图型码"><img src="../images/index_09.png" alt="验证码"></li>
+		<li><a href="#" class="login_btn1">会员登录</a><a href="#" class="login_btn2">忘记密码</a><a href="#" class="login_btn3">会员注册</a></li>
+	</ul>
+</div>
+<!--index_menu !-->
+<div id="menu" class="navbar wrap">
+	<ul class="nav clearfix">
+		<li  class="m"><h3><a href="#">网站首页</a></h3></li>
+		<li  class="m"><h3><a href="#">机构介绍</a></h3></li>
+		<li  class="m"><h3><a href="#">机构资讯</a></h3></li>
+		<li  class="m"><h3><a href="#">培训项目</a></h3>
+			<ul class="sub">
+				<li><a href="#">项目分类</a></li>
+				<li><a href="#">项目分类</a></li>
+				<li><a href="#">项目分类</a></li>
+				<li><a href="#">项目分类</a></li>
+			</ul>
+		</li>
+		<li class="m"><h3><a href="#">会员中心</a></h3></li>
+		<li class="m"><h3><a href="#">联系方式</a></h3></li>
+		<li>
+			<div class="sele">
+				<form>
+					<input type="text" class="sele_box" placeholder="请输入关键字"><a href="#" class="sele_btn"><i class="iconfont">&#xe60c;</i></a>
+				</form>
+			</div>
+		</li>
+		<li class="block"></li>
+	</ul>
+</div>
+<script type="text/javascript">
+	(function(){
+			var ind = 3; //初始位置
+			var nav= jQuery(".nav");
+			var init = jQuery(".nav .m").eq(ind);
+			var block = jQuery(".nav .block"); //滑块
+			block.css({"left":init.position().left}); //初始化滑块位置
+			nav.hover(function(){},function(){ block.animate({"left":init.position().left},200); }); //移出导航滑块返回
+
+			jQuery(".nav").slide({ 
+					type:"menu", //效果类型
+					titCell:".m", // 鼠标触发对象
+					targetCell:".sub", // 效果对象，必须被titCell包含
+					delayTime:300, // 效果时间
+					triggerTime:0, //鼠标延迟触发时间
+					returnDefault:true,//on返回初始位置
+					defaultIndex:ind,//初始位置
+					startFun:function(i,c,s,tit){ //控制当前滑块位置
+						block.animate({"left":tit.eq(i).position().left},200);
+					}
+				});
+	})()
+</script>
+<!-- banner !-->
+
+<div class="course_abstract ">
+	<h3 class="wrap">当前位置:<a href="#">首页</a>><a href="#"> 培训项目</a>>建设工程新法规 - 建筑工程施工许可管理办法</h3>
+	<ul class="wrap fix">
+		<li><img src="../images/index_05.jpg" alt="缩略图"></li>
+		<li>
+			<h4>建设工程新法规 - 建筑工程施工许可管理办法建筑工程施工许可管理办法</h4>
+			<p><b>授课方式：</b>网络</p>
+			<p><b>班级类型：</b>定制课程</p>
+			<p><b>所需学时/总学时：</b>60小时 / 120小时</p>
+			<p><b>报名截止时间：</b>2018-07-15</p>
+			<p><b>总价格：</b><span>￥255.00元</span></p>
+			<p><b>上课时间：</b>2018-07-20 8:30 到 2018-07-20 12:00</p>
+			<p><b>上班地址：</b>网络（面授时显示具体位置面授时显示具体位置面授时显示具体位置）</p>
+			<h5><a href="#">立即报名</a><a href="#">在线咨询</a><a href="#">返&nbsp;&nbsp;&nbsp;&nbsp;回</a></h5>
+		</li>
+	</ul>
+</div>
+<div class="bg_grey">
+<div class="wrap fix ">
+	<div class="exp_sketch article f_l bg_white">
+		<div class="exp_sketch_title " >课程概述</div>
+		<div class="sketch ">
+			<p>对城市综合体开发模式、开发商运营状况有基本了解</p>
+			<p>课程目标： </p>
+			<p class="text_indent2"><span class="green"> 1. </span>对城市综合体规模、历史、发展现状、发展趋势有基本了解 </p>
+			<p class="text_indent2"><span class="green">2.</span> 了解综合体设计方法和步骤 </p>
+			<p class="text_indent2"><span class="green">3. </span>对综合体各个组成单体设计要点有深入认识 </p>
+			<p>课程特色： </p>
+			<p class="text_indent2">让您了解市场，了解甲方，了解实际项目设计方法，这就是我们，实战建筑师 </p>
+			<p>适用人群： </p>
+			<p class="text_indent2">建筑系学生、助理工程师、想转业投身建筑设计的有识之士 </p>
+			<p><img src="../images/index_14.png" alt="aaa"></p>
+		</div>
+		<div class="sketch_back"><a href="#">立即报名</a><a href="#">在线咨询</a><a href="#">返&nbsp;&nbsp;&nbsp;&nbsp;回</a></div>
+	</div>
+	<div class="f_r aside">
+		<div class="aside_hot">
+			<h3>讲师介绍</h3>
+			<p>城乡规划专业硕士研究生，校聘教授、国家注册城市规划师、高级工程师城乡规划专业硕士研究生，校聘教授、国家注册城市规划师、高级工程师城乡规划专业硕士研究生，校聘教授、国家注册城市规划师、高级工程师城乡规划专业硕士研究生，校聘教授、国家注册城市规划师、高级工程师</p>
+		</div>
+		<div class="courses_list1">
+			<h3>课程明细</h3>
+			<ul>
+				<li><a href="#">建筑信息模型技术应用策略</a></li>
+				<li><a href="#">建筑信息模型技术的价值及构成<</a></li>
+				<li><a href="#">建筑信息模型技术的发展趋势</a></li>
+				<li><a href="#">建筑信息模型的定义及基本特征</a></li>
+				<li><a href="#">建设工程新法规-《建筑工程施工转包违法分包等违法行为认定查处管理办法》(3)</a></li>
+				<li><a href="#">建设工程新法规-《建筑工程施工转包违法分包等违法行为认定查处管理办法》(2)</a></li>
+				<li><a href="#">建设工程新法规-《建筑工程施工转包违法分包等违法行为认定查处管理办法》(1)</a></li>
+				<li><a href="#">建设工程新法规-《建筑工程施工转包违法分包等违法行为认定查处管理办法》(1)</a></li>
+				<li><a href="#">危险性较大分部分项工程管理控制（二）</a></li>
+				<li><a href="#">危险性较大分部分项工程管理控制（一）</a></li>
+				<li><a href="#">机电工程重大安全事故的剖析</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<!--foot!-->
+<div id="foot">
+	<ul>
+		<li>惠州市城市建设职业培训学校（惠州市城市建设职业技能培训中心）<br>服务热线：020－22266088、22266188（广州市华乐路57号、华乐大厦四楼）<br>（粤ICP备08034269号）</li>
+	</ul>	
+</div>
+</div>
+</body>
+</html>
